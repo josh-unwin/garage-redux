@@ -2,3 +2,61 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.car {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.car img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.car h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.car p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.car .car-infos {
+  padding: 16px;
+}
+
+.garage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    margin: 0
+  }
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+  height: 40px
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
